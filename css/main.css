@@ -1,0 +1,14 @@
+h1 {
+	color: red;
+}
+
+.first-p {
+	color: white;
+	background-color: blue;
+	width: 100px;
+	margin-bottom: 100px;
+}
+
+p span {
+	color: red;
+}
