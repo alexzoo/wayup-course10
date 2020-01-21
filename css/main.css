@@ -167,6 +167,44 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/*Responsive*/
+
+/*992px - 1200px*/
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+
+	.header_main {
+		width: 100%;
+	}
+}
+
+/*768px - 992px*/
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+
+	.wrapper {
+		flex-direction: column;
+	}
+}
+
+/*576px - 768px*/
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+}
+
+/*0 - 576px*/
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+}
+
 
 
 
