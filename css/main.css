@@ -176,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	.header_main {
-		width: 100%;
+		width: 90%;
 	}
 }
 
@@ -189,12 +189,35 @@ h1, h2, h3, h4, h5, h6 {
 	.wrapper {
 		flex-direction: column;
 	}
+
+	.header_main {
+		margin: auto;
+	}
+
+	.intro {
+		width: 100%;
+	}
 }
 
 /*576px - 768px*/
 @media screen and (max-width: 768px) {
 	.container {
-		width: 540px;
+		width: 100%;
+    	text-align: center;
+	}
+
+	.offer {
+	margin-top: 50px;
+	}
+
+	.btn {
+		margin: auto;
+
+	}
+
+	.future-wrapper {
+		flex-direction: column;
+		align-items: center;
 	}
 }
 
